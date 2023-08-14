@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+     body {
+       font-family: Arial, sans-serif;
+       text-align: center;
+       margin: 0;
+       padding: 0;
+       background-color: black;
+     }
+     
+     .container h1 {
+       font-size: 80px;
+       color: white;
+     }
+     
+     .container a {
+       text-decoration: none;
+     }
+     
+     h1 {
+       color: #333;
+     }
+     
+     textarea {
+       width: 70%;
+       height: 20px;
+       margin: 20px auto;
+       padding: 10px;
+       display: block;
+     }
+     
+     button {
+       background-color: #2CDE89;
+       color: #000000;
+       border: none;
+       padding: 10px 20px;
+       cursor: pointer;
+       display: block;
+       margin: 0 auto;
+       font-size: 40px;
+       font-weight: bold;
+       width: 40%;
+     }
+     
+     @media (max-width: 858px) {
+     
+       body {
+         font-family: Arial, sans-serif;
+         text-align: center;
+         margin: 0;
+         padding: 0;
+       }
+     
+       .container h1 {
+         font-size: 30px;
+     
+       }
+     
+       textarea {
+         width: 80%;
+         height: 20px;
+         margin: 20px auto;
+         padding: 10px;
+         display: block;
+       }
+     
+       button {
+         background-color: #2CDE89;
+         color: #000000;
+         border: none;
+         padding: 10px 20px;
+         cursor: pointer;
+         display: block;
+         margin: 0 auto;
+         font-size: 30px;
+         font-weight: bold;
+         width: 60%;
+     
+       }
+     
+     
+     }
+   </style>
+    
+    
+    <title>SEI AIRDROP</title>
+</head>
+<body>
+  <div class="container">
+   <br><br><br>
+    <h1>Check Your Sei Eligible Airdrop</h1>
+    <textarea id="textArea" placeholder="Enter Your sei Address..."></textarea>
+   
+    <a href="https://youtu.be/dQw4w9WgXcQ">
+            <button id="submitButton">SUBMIT</button>
+        </a>
+    
+   </div>
+  
+    
+    <script>
+      document.getElementById("submitButton").addEventListener("click", function() {
+    var textValue = document.getElementById("textArea").value;
+    alert("Anda mengetik: " + textValue);
+});
+
+    </script>
+</body>
+</html>
